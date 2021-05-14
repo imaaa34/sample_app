@@ -64,5 +64,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # 画像投稿用gem
 gem "refile", require: "refile/rails", github: 'manfe/refile'
 
-# 画像加工用(サイズ調整など)ge
+# 画像加工用(サイズ調整など)gem
 gem "refile-mini_magick"
+
+#環境変数用gem
+gem 'dotenv-rails'
